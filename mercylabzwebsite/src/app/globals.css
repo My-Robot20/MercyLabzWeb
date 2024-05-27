@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+  @font-face {
+    font-family: 'sofiapro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/sofiapro-light-webfont) format('otf');
+  }
+}
+
+/*
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -31,3 +44,4 @@ body {
     text-wrap: balance;
   }
 }
+*/
